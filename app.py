@@ -74,7 +74,7 @@ def categorize_cves(cves):
 st.markdown('<div class="header">IP Vulnerability Monitoring & Analytics Tool</div>', unsafe_allow_html=True)
 
 # Input IP addresses
-user_input = st.text_area("Enter IP addresses (comma-separated):", "")
+user_input = st.text_area("Enter IP address:" For Multiple Ip's seperate them by , "")
 ip_list = [ip.strip() for ip in user_input.split(',') if ip.strip()]
 
 # Analyze button

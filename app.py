@@ -141,7 +141,7 @@ if st.button("Analyze IPs"):
                                 - **References**: {', '.join(cve['References']) if cve['References'] else 'None'}
                             """)
 
-        st.success(f"Analysis completed in {time.time() - start_time:.2f} seconds!")
+        st.success(f"Analysis completed!")
 
         if all_cve_data:
             df = pd.DataFrame(all_cve_data)

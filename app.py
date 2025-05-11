@@ -6,7 +6,7 @@ import requests
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import time
 
-SHODAN_API_KEY = '0DFuM9oVGamYzfHIjQ9NGT4XNuIut7SN'
+SHODAN_API_KEY = 'ZMT2xP3aui5xBWpdHQGu7Y6OTNvehL1e'
 api = shodan.Shodan(SHODAN_API_KEY)
 
 # Function to fetch CVE data from Shodan
